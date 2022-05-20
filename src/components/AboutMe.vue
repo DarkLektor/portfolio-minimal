@@ -36,18 +36,17 @@
 
 <style scoped>
 article {
-  padding-top: calc(30% + 350px);
+  padding-top: 550px;
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 1024px) {
   article {
-    padding-top: calc(25% + 300px);
+    padding-top: 450px;
   }
 }
-
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 575px) {
   article {
-    padding-top: calc(50% + 300px);
+    padding-top: 350px;
   }
 }
 </style>

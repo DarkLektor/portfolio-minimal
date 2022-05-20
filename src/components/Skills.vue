@@ -5,7 +5,7 @@
     id="skills"
     class="mb-6 dark:text-white text-black text-left relative z-10"
   >
-    <h2 class="text-xl font-bold mb-4">Навыки</h2>
+    <h2 class="text-2xl font-bold mb-4">Навыки</h2>
     <ul class="list-disc list-inside">
       <li class="mb-4">
         <b>VueJS</b> - большую часть времени работал на этом фреймворке. <br />

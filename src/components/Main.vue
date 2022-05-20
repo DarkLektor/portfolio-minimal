@@ -2,6 +2,7 @@
 import Cube from "./Cube.vue";
 import AboutMe from "./AboutMe.vue";
 import Skills from "./Skills.vue";
+import Contacts from "./Contacts.vue";
 </script>
 
 <template>
@@ -9,6 +10,7 @@ import Skills from "./Skills.vue";
     <Cube />
     <AboutMe />
     <Skills />
+    <Contacts />
   </main>
 </template>
 

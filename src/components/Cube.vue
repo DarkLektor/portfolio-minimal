@@ -52,7 +52,7 @@ document.body.addEventListener("mousemove", ({ clientX, clientY }) => {
   height: 250px;
   width: 250px;
   position: absolute;
-  top: 25%;
+  top: 300px;
   left: 50%;
   margin-left: -125px;
   margin-top: -125px;
@@ -113,7 +113,7 @@ document.body.addEventListener("mousemove", ({ clientX, clientY }) => {
 
 @media screen and (max-width: 1024px) {
   .cube-container {
-    top: 20%;
+    top: 250px;
     height: 200px;
     width: 200px;
     margin-left: -100px;
@@ -148,7 +148,7 @@ document.body.addEventListener("mousemove", ({ clientX, clientY }) => {
 
 @media screen and (max-width: 575px) {
   .cube-container {
-    top: 15%;
+    top: 200px;
     height: 150px;
     width: 150px;
     margin-left: -75px;
