@@ -70,6 +70,17 @@ function goToAnchor(e) {
             ></div
           ></a>
         </li>
+        <li class="md:mr-2">
+          <a
+            href="#contacts"
+            @click="goToAnchor"
+            class="header-link w-full inline-block group md:px-2 px-4 py-2"
+            ><span>Контакты</span>
+            <div
+              class="md:block hidden h-px w-0 bg-black dark:bg-white transition-all duration-500 group-hover:w-full"
+            ></div
+          ></a>
+        </li>
         <li>
           <a
             href="https://github.com/DarkLektor/portfolio-minimal"
