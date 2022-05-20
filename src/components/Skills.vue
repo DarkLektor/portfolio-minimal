@@ -3,7 +3,7 @@
 <template>
   <article
     id="skills"
-    class="mb-6 dark:text-white text-black text-left relative z-10"
+    class="mb-6 dark:text-white text-black text-left relative z-10 transition-colors duration-300"
   >
     <h2 class="text-2xl font-bold mb-4">Навыки</h2>
     <ul class="list-disc list-inside">

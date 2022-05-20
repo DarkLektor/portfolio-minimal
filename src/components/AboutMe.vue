@@ -3,7 +3,7 @@
 <template>
   <article
     id="about-me"
-    class="mb-6 dark:text-white text-black text-left relative z-10"
+    class="mb-6 dark:text-white text-black text-left relative z-10 transition-colors duration-300"
   >
     <div
       class="flex sm:flex-row flex-col sm:items-center sm:justify-between mb-4"
