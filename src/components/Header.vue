@@ -3,6 +3,7 @@ import { onUnmounted, ref } from "vue";
 import ThemeSwitcher from "./ThemeSwitcher.vue";
 
 const showMobileMenu = ref(false);
+const headerRef = ref();
 
 function setMobileMenu(e) {
   e.stopPropagation();
@@ -27,6 +28,7 @@ function goToAnchor(e) {
   e.preventDefault();
   let elem = null;
   let id = null;
+  const headerHeight = headerRef.value.offsetHeight;
 
   if (e.target.nodeName === "A") {
     id = e.target.getAttribute("href").slice(1);
@@ -35,12 +37,16 @@ function goToAnchor(e) {
   }
 
   elem = document.getElementById(id);
-  elem.scrollIntoView({ alignToTop: false, behavior: "smooth" });
+  const y =
+    elem.getBoundingClientRect().top + window.pageYOffset - (headerHeight + 15);
+
+  window.scrollTo({ top: y, behavior: "smooth" });
 }
 </script>
 
 <template>
   <header
+    ref="headerRef"
     class="fixed z-50 w-full py-2 bg-white dark:bg-opacity-5 bg-opacity-20 backdrop-blur-lg transition-colors duration-500"
   >
     <nav class="flex items-center px-4 lg:max-w-3xl max-w-xl mx-auto relative">
