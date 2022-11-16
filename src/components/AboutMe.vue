@@ -44,6 +44,7 @@ article {
     padding-top: 450px;
   }
 }
+
 @media screen and (max-width: 575px) {
   article {
     padding-top: 350px;
