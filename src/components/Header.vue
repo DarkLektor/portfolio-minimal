@@ -89,7 +89,7 @@ function goToAnchor(e) {
         </li>
         <li>
           <a
-            href="https://github.com/DarkLektor/portfolio-minimal"
+            href="https://github.com/DarkLektor"
             target="_blank"
             @click="closeMobileMenu"
             class="header-link w-full inline-block group md:px-2 px-4 py-2"
