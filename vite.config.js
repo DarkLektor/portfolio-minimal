@@ -4,11 +4,11 @@ import vue from "@vitejs/plugin-vue";
 const path = require("path");
 
 export default defineConfig({
+  base: "/portfolio-minimal/",
   plugins: [vue()],
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: "/portfolio-minimal/",
 });
